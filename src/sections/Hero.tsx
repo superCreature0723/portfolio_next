@@ -65,11 +65,6 @@ function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4, ease: 'easeInOut', delay: 1.4 }}
         >
-          <Button
-            text="Check out my LinkedIn"
-            link="https://linkedin.com/in/jackie
-            aria-label="LinkedIn profile of jackie clarke
-          />
         </motion.div>
       </motion.div>
     </section>
