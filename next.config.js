@@ -121,4 +121,5 @@ const nextConfig = {
 module.exports = {
   basePath: '',
   assetPrefix: '',
+  trailingSlash: true,
 };
