@@ -6,7 +6,8 @@
     "scripts": {
       "dev": "next dev",
       "build": "next build",
-      "start": "next start"
+      "start": "next start",
+      "postbuild": "cp -r .next build"
     },
   
   "dependencies": {
@@ -29,8 +30,6 @@
   "devDependencies": {
     "sass": "^1.83.0"
   }
-  ,
-  "scripts": {
-  "postbuild": "cp -r .next build"
-}
+  
+ 
 }
