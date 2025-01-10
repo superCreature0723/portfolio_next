@@ -119,7 +119,11 @@ const nextConfig = {
 };
 
 module.exports = {
+  reactStrictMode: true,
   basePath: '',
   assetPrefix: '',
   trailingSlash: true,
+  experimental: {
+    outputFileTracing: true,
+  },
 };
