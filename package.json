@@ -27,4 +27,8 @@
   "devDependencies": {
     "sass": "^1.83.0"
   }
+  ,
+  "scripts": {
+  "postbuild": "cp -r .next build"
+}
 }
