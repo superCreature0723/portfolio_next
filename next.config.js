@@ -123,7 +123,5 @@ module.exports = {
   basePath: '',
   assetPrefix: '',
   trailingSlash: true,
-  experimental: {
-    outputFileTracing: true,
-  },
+ 
 };
