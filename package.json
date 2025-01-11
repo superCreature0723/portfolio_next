@@ -2,14 +2,12 @@
   "name": "jackie-portfolio",
   "version": "4.0.0",
   "private": true,
-  
-    "scripts": {
-      "dev": "next dev",
-      "build": "next build",
-      "start": "next start",
-      "postbuild": "cp -r .next build"
-    },
-  
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "postbuild": "cpx .next/** build"
+  },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@types/node": "^20.17.11",
@@ -28,8 +26,7 @@
     "typescript": "^5.7.2"
   },
   "devDependencies": {
+    "cpx": "^1.5.0",
     "sass": "^1.83.0"
   }
-  
- 
 }
