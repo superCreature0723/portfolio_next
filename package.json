@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "postbuild": "copyfiles .next/** build"
+    "start": "next start"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
@@ -26,7 +25,6 @@
     "typescript": "^5.7.2"
   },
   "devDependencies": {
-    "copyfiles": "^2.4.1",
     "cpx": "^1.5.0",
     "sass": "^1.83.0"
   }

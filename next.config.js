@@ -115,13 +115,10 @@ const nextConfig = {
   output: 'export',
 
   // Disable powered by header
-  poweredByHeader: false,
-};
-
-module.exports = {
-  reactStrictMode: true,
-  basePath: '',
+  
   assetPrefix: '',
   trailingSlash: true,
  
 };
+
+module.exports = nextConfig;
