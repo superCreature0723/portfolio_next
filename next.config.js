@@ -118,7 +118,9 @@ const nextConfig = {
   
   assetPrefix: '',
   trailingSlash: true,
- 
+  images: {
+    unoptimized: true,
+  },
 };
 
 module.exports = nextConfig;
